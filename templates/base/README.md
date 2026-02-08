@@ -12,13 +12,13 @@ A Codex-first project template for dev tools teams, with Skills, Agents, and Wor
 Use the CLI to scaffold a new kit from this template:
 
 ```bash
-npx @treit/kit-agentes init my-kit
+npx @pedroct/kit-agentes init my-kit
 ```
 
 You can also install globally:
 
 ```bash
-npm install -g @treit/kit-agentes
+npm install -g @pedroct/kit-agentes
 kit-agentes init my-kit
 ```
 
@@ -27,7 +27,7 @@ Options:
 
 ## Release (npm)
 1. Authenticate with npm:
-   - Local: `npm login --scope=@treit --registry=https://registry.npmjs.org`
+   - Local: `npm login --scope=@pedroct --registry=https://registry.npmjs.org`
    - CI: set `NPM_TOKEN` in your CI secrets (used by `.npmrc`).
 2. Bump version: `npm version patch|minor|major`
 3. Publish: `npm publish` (uses `publishConfig.access=public`).

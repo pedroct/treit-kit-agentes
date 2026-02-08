@@ -5,7 +5,7 @@ const path = require('path');
 
 function printHelp() {
   const text = `\
-@treit/kit-agentes
+@pedroct/kit-agentes
 
 Usage:
   kit-agentes init [dir] [--force]
@@ -15,7 +15,7 @@ Examples:
   kit-agentes init . --force
 
 Run with npx:
-  npx @treit/kit-agentes init my-kit
+  npx @pedroct/kit-agentes init my-kit
 `;
   console.log(text);
 }

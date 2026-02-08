@@ -1,11 +1,11 @@
 {
-  "name": "@treit/kit-agentes",
+  "name": "@pedroct/kit-agentes",
   "version": "0.1.0",
   "description": "Codex-ready dev tools kit with Skills, Agents, and Workflows.",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pedroct/treit-kit-agentes.git"
+    "url": "git+https://github.com/pedroct/treit-kit-agentes.git"
   },
   "bugs": {
     "url": "https://github.com/pedroct/treit-kit-agentes/issues"

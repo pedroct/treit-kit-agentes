@@ -9,7 +9,7 @@ This repository provides a Codex-ready dev tools kit with Skills, Agents, and Wo
 
 ## CLI
 Scaffold a new kit:
-- `npx @treit/kit-agentes init my-kit`
+- `npx @pedroct/kit-agentes init my-kit`
 
 ## Default behavior
 - Detect the best agent(s) and skill(s) from the request.
