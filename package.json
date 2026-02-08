@@ -1,0 +1,22 @@
+{
+  "name": "@treit/kit-agentes",
+  "version": "0.1.0",
+  "description": "Codex-ready dev tools kit with Skills, Agents, and Workflows.",
+  "license": "MIT",
+  "bin": {
+    "kit-agentes": "bin/kit-agentes.js"
+  },
+  "files": [
+    "bin/",
+    "templates/",
+    "AGENTS.md",
+    "ARCHITECTURE.md",
+    "README.md",
+    "agents/",
+    "workflows/",
+    ".agents/"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
