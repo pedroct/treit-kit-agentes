@@ -25,6 +25,13 @@ kit-agentes init my-kit
 Options:
 - `--force` overwrite an existing non-empty directory
 
+## Release (npm)
+1. Authenticate with npm:
+   - Local: `npm login --scope=@treit --registry=https://registry.npmjs.org`
+   - CI: set `NPM_TOKEN` in your CI secrets (used by `.npmrc`).
+2. Bump version: `npm version patch|minor|major`
+3. Publish: `npm publish` (uses `publishConfig.access=public`).
+
 ## Domain and stack
 - Dev tools: integrations, data pipelines, and CI/CD.
 - Stack: React/Next.js, Node.js, Python/FastAPI, Java/Spring.
